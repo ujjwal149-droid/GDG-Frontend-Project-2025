@@ -1,0 +1,255 @@
+@media only screen and (max-width: 1600px) {
+    /********? NEWS ?*****************/
+    .news-container .right ul li {
+        flex-direction: column;
+        align-items: center;
+        h4{margin-bottom: 12px;}
+
+        .img-holder {align-self: flex-start;}
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .links-toggle {
+        display: block;
+    }
+
+    .side-bar {
+        display: block;
+    }
+
+    header {
+        padding-bottom: 0;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: center;
+        .img-content {width: 90%; margin-top: -48px;}
+    }
+    
+    .hero-section .txt-content {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-section .txt-content {
+        width: fit-content;
+    }
+
+
+    /********? WHAT IS SKILLINE ?*****************/
+    .what-is-skilline .card-container {
+        flex-direction: column;
+        row-gap: 100px;
+    }
+
+    /********? YOU CAN DO SKILLINE ?*****************/
+    .you-can-do-skilline {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 80px;
+
+        .text-content {margin-right: 0; width: 100%;}
+        .image-content {width: 80%;}
+    }
+
+    .you-can-do-skilline .text-content p {
+        margin-right: 0;
+    }
+
+    /********? OUR FEATURES ?*****************/
+    .our-features .feature-wrapper 
+    .our-feature-card {
+        flex-direction: column;
+    }
+
+    /********? INTEGRATIONS ?*****************/
+    .integrations-section {
+        flex-direction: column-reverse;
+        row-gap: 100px;
+    }
+
+    .integrations-section .logo-section {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        img {width: 15%;}
+    }
+
+    .integrations-section .text-section {
+        width: 100%;
+        button { width: 100%;}
+    }
+
+    /********? TESTIMONIALS ?*****************/
+    .testimonial-section {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 80px;
+    }
+
+    .testimonial-section .text-section {
+        width: 100%;
+        button{width: 100%;}
+    }
+
+    .testimonial-section .img-section {
+        width: 80%;
+        .br-img {right: -50%px;}
+    }
+
+    /********? NEWS ?*****************/
+    .news-container {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 80px;
+
+        .left {width: 100%;}
+        .right {width: 100%;}
+    }
+
+    .news-container .right ul li {
+        .img-holder {
+            align-self: flex-start;
+        }
+
+        .news-text {
+            align-self: flex-start;
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    :root {
+        --padding-inline-section: 48px;
+    }
+
+    h1 {font-size: 48px;}
+    p {line-height: 140%;}
+
+
+    /********? OUR FEATURES ?*****************/
+    .our-features .feature-wrapper 
+    .our-feature-card .img-holder{
+        width: 96%;
+        img {width: 100%;}
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    :root {
+        --padding-inline-section: 24px;
+        --margin-top-section: 100px
+    }
+    .hero-section .txt-content .btn-container {
+        justify-content: center;
+
+        li {width: 100%;}
+        .btn-2 {
+            border: 2px solid #ffffff;
+            border-radius: 40px;
+            justify-content: start;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+            /* .play-logo {} */
+        }
+    }
+    .hero-section .txt-content {
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .you-can-do-skilline .image-content {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    :root {
+        --padding-inline-section: 16px;
+    }
+
+    .our-features .feature-wrapper {
+        gap: 80px;
+    }
+
+    .testimonial-section .img-section 
+    .br-img .name-holder {
+        flex-direction: column;
+        align-items: flex-start;
+        row-gap: 4px;
+
+        .stars {justify-content: start;}
+    }
+
+
+    .news-container .right ul li
+    .img-holder {
+        align-self: center;
+    }
+
+
+    footer {
+        position: relative;
+    }
+    footer .logo-holder {
+        gap: 40px;
+    }
+    footer .subscribe-btn-holder {
+        flex-direction: column;
+        align-items: start;
+
+        form {
+            width: 100%;
+            .btn-hollow{width: 100%;}
+        }
+        .btn-solid {width: 100%;}
+    }
+
+    footer ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 66px;
+        div {display: none;}
+
+    }
+
+    footer .final-p {
+        position: absolute;
+        background-color: #1c1c34;
+        padding: 20px;
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .you-can-do-skilline .image-content {
+        height: 272px;
+    }
+
+    header {padding-bottom: 24px;}
+    
+
+
+    .hero-section .img-content {
+        display: none;
+    }
+}
+

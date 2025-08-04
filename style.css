@@ -239,7 +239,7 @@ header {
     background-image: url("./Images/icons/hamburger.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 40px;
+    background-size: 20px;
 }
 
 .side-bar {
@@ -308,18 +308,23 @@ header {
     }
     p {
         width: 100%; margin-bottom: 0; color: #252641;
-        transform: translateX(400px);
-        transition: transform 0.5s ease;
+
+        @media (any-pointer: fine) {
+            transform: translateX(400px);
+            transition: transform 0.5s ease;
+        }
     }
 }
 
-.hero-section .txt-content 
-.btn-container .btn-2:hover {
-    p{
-        transform: translateX(0px)
+
+@media (any-pointer: fine) {
+    .hero-section .txt-content 
+    .btn-container .btn-2:hover {
+        p{
+            transform: translateX(0px)
+        }
     }
 }
-
 .hero-section .img-content {
     width: 50%;
     align-self: flex-end;

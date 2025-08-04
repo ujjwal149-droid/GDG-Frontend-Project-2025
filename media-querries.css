@@ -52,6 +52,10 @@
         row-gap: 100px;
     }
 
+    .our-features .feature-wrapper .img-holder {
+        margin-top: 16px;
+    } 
+
     /********? YOU CAN DO SKILLINE ?*****************/
     .you-can-do-skilline {
         flex-direction: column;
@@ -103,7 +107,7 @@
     }
 
     .testimonial-section .img-section {
-        width: 80%;
+        width: 100%;
         .br-img {right: -50%px;}
     }
 
@@ -176,12 +180,39 @@
     .you-can-do-skilline .image-content {
         height: 350px;
     }
+
+    .hero-section .txt-content .btn-container .btn-2 {
+  & p {
+        margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 640px) {
     :root {
         --padding-inline-section: 16px;
     }
+
+    header {
+        padding-top: 20px;
+    }
+
+    .what-is-skilline .card-container .card .content-wrapper
+button {
+    min-height:60px;
+}
+
+.hero-section .txt-content 
+.btn-container .btn-2 {
+    height: 60px;
+
+    .play-logo {
+        min-width: 60px;
+        min-height: 60px;
+        background-position-x: 18px;
+        background-size: 18px;
+    }
+}
+
 
     .our-features .feature-wrapper {
         gap: 80px;
@@ -240,9 +271,89 @@
 }
 
 @media only screen and (max-width: 480px) {
+
+    h1 {
+        font-size: 36px;
+        line-height: 115%;
+    }
+    h2 {
+        font-size: 32px;
+        line-height: 150%;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 120%;
+    }
+    h4 {
+        font-size: 24px;
+        line-height: 120%;
+        margin-bottom: 16px;
+    }
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 18px;
+    }
+
+    .very-sm {font-size: 12px;}
+    .sm {font-size: 14px;}
+    .med {font-size: 16px;}
+    .reg {font-size: 18px;}
+    .large {font-size: 20px;}
+    .xl {font-size: 22px;}
+
+
+    .logo-img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .logo-txt {
+        font-size: 16px;
+        margin-left: -29px;
+    }
+
+    .heading-top-bar .line {
+        width: 40px;
+    }
+
+    .btn-solid {height: 40px; font-size: 16px;}  
+    .btn-hollow {height: 40px; font-size: 16px;}
+    .hero-section .txt-content 
+    .btn-container .btn-2 {
+    height: 40px;
+        .play-logo {
+            min-width: 40px;
+            min-height: 40px;
+            background-position-x: 14px;
+            background-size: 12px;
+    }
+}
+
     .you-can-do-skilline .image-content {
         height: 272px;
     }
+        .what-is-skilline .card-container .card .content-wrapper
+button {
+    min-height:40px;
+}
+
+    .all-in-one .feature-card {
+        padding: 8px;
+        min-height: fit-content;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .feature-card-holder .top-icon {
+        width: 60px;
+        height: 60px;
+        background-size: 40%;
+        margin-bottom: -30px;
+    }
+
 
     header {padding-bottom: 24px;}
     
@@ -250,6 +361,18 @@
 
     .hero-section .img-content {
         display: none;
+        
+    }
+
+    .integrations-section .text-section button {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .testimonial-section .text-section button {
+        height: 40px;
+        font-size: 16px;
     }
 }
+
 

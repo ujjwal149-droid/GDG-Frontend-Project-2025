@@ -25,6 +25,7 @@ align-items: start;
 } 
     .nav-links {
             background-color: white;
+            border-radius: 20px;
     width: 100%;
     margin-top: 32px;
     }

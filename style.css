@@ -202,7 +202,7 @@ ul {
     gap: 30px;
     p {
     color: #525596;
-    font-size: 20px;
+    /* font-size: 20px; */
     }
 }
 
@@ -583,7 +583,6 @@ button {
 
 .you-can-do-skilline .image-content {
     width: 50%;
-    height: 470px;
     position: relative;
 
     background-image: url("./Images/confident-teacher.png");
@@ -591,31 +590,30 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 20px;
-
-    /* img {
-        width: 100%;
-    } */
+    background-size: 100%;
+    aspect-ratio: 705/472;
+    
 
     .tl-rect {
         position: absolute;
-        top: -20px;
-        left: -20px;
+        top: -4.2%;
+        left: -2.8%;
         border-radius: 20px;
-        width: 138px;
-        height: 138px;
+        width: 30%;
         background-color: #23BDEE;
         z-index: -1;
+        aspect-ratio: 1/1;
     }
 
     .br-rect {
         position: absolute;
-        bottom: -20px;
-        right: -20px;
+        bottom: -4.2%;
+        right: -2.8%;
         border-radius: 20px;
-        width: 231px;
-        height: 231px;
+        width: 50%;
         background-color: #F3AC50;
         z-index: -1;
+        aspect-ratio: 1/1;
     }
 }
 
@@ -666,7 +664,6 @@ button {
 .testimonial-section .img-section {
     width: 50%;
     aspect-ratio: 56/70;
-    position: relative;
 }
 
 .testimonial-section .img-section 
@@ -681,6 +678,7 @@ button {
     border-radius: 20px;
     background-position-y: top;
     background-size: 100%;
+    position: relative;
 }
 
 .testimonial-section .img-section 
@@ -688,7 +686,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 95%; height: 330px;
+    width: 95%; height: fit-content;
     max-width: 680px;
     position: absolute;
     bottom: -120px;
@@ -761,6 +759,7 @@ button {
     height: 200px;
     position: relative;
     border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
 .news-container .right ul li .img-holder 
@@ -775,7 +774,6 @@ button {
 
 .news-type {
     width: 130px;
-    height: 40px;
     background-color: #F4C467;
     color: #252641;
     border-radius: 80px;

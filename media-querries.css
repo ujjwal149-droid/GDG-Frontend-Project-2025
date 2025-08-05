@@ -1,378 +1,424 @@
 @media only screen and (max-width: 1600px) {
-    /********? NEWS ?*****************/
-    .news-container .right ul li {
-        flex-direction: column;
-        align-items: center;
-        h4{margin-bottom: 12px;}
-
-        .img-holder {align-self: flex-start;}
-    }
-}
-
-@media only screen and (max-width: 1280px) {
-
-    .nav-links {
-        display: none;
+  /********? NEWS ?*****************/
+  .news-container .right ul li {
+    flex-direction: column;
+    align-items: center;
+    h4 {
+      margin-bottom: 12px;
     }
 
-    .links-toggle {
-        display: block;
+    .img-holder {
+      align-self: flex-start;
     }
-
-    .side-bar {
-        display: block;
-    }
-
-    header {
-        padding-bottom: 0;
-    }
-
-    .hero-section {
-        flex-direction: column;
-        align-items: center;
-        .img-content {width: 90%; margin-top: -48px;}
-    }
-    
-    .hero-section .txt-content {
-        width: fit-content;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .hero-section .txt-content {
-        width: fit-content;
-    }
-
-
-    /********? WHAT IS SKILLINE ?*****************/
-    .what-is-skilline .card-container {
-        flex-direction: column;
-        row-gap: 100px;
-    }
-
-    .our-features .feature-wrapper .img-holder {
-        margin-top: 16px;
-    } 
-
-    /********? YOU CAN DO SKILLINE ?*****************/
-    .you-can-do-skilline {
-        flex-direction: column;
-        align-items: center;
-        row-gap: 80px;
-
-        .text-content {margin-right: 0; width: 100%;}
-        .image-content {width: 80%;}
-    }
-
-    .you-can-do-skilline .text-content p {
-        margin-right: 0;
-    }
-
-    /********? OUR FEATURES ?*****************/
-    .our-features .feature-wrapper 
-    .our-feature-card {
-        flex-direction: column;
-    }
-
-    /********? INTEGRATIONS ?*****************/
-    .integrations-section {
-        flex-direction: column-reverse;
-        row-gap: 100px;
-    }
-
-    .integrations-section .logo-section {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        img {width: 15%;}
-    }
-
-    .integrations-section .text-section {
-        width: 100%;
-        button { width: 100%;}
-    }
-
-    /********? TESTIMONIALS ?*****************/
-    .testimonial-section {
-        flex-direction: column;
-        align-items: center;
-        row-gap: 80px;
-    }
-
-    .testimonial-section .text-section {
-        width: 100%;
-        button{width: 100%;}
-    }
-
-    .testimonial-section .img-section {
-        width: 100%;
-        .br-img {right: -50%px;}
-    }
-
-    /********? NEWS ?*****************/
-    .news-container {
-        flex-direction: column;
-        align-items: center;
-        row-gap: 80px;
-
-        .left {width: 100%;}
-        .right {width: 100%;}
-    }
-
-    .news-container .right ul li {
-        .img-holder {
-            align-self: flex-start;
-        }
-
-        .news-text {
-            align-self: flex-start;
-        }
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    :root {
-        --padding-inline-section: 48px;
-    }
-
-    h1 {font-size: 48px;}
-    p {line-height: 140%;}
-
-
-    /********? OUR FEATURES ?*****************/
-    .our-features .feature-wrapper 
-    .our-feature-card .img-holder{
-        width: 96%;
-        img {width: 100%;}
-    }
-
-
-}
-
-@media only screen and (max-width: 768px) {
-    :root {
-        --padding-inline-section: 24px;
-        --margin-top-section: 100px
-    }
-    .hero-section .txt-content .btn-container {
-        justify-content: center;
-
-        li {width: 100%;}
-        .btn-2 {
-            border: 2px solid #ffffff;
-            border-radius: 40px;
-            justify-content: start;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-            /* .play-logo {} */
-        }
-    }
-    .hero-section .txt-content {
-        width: fit-content;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    
-    .you-can-do-skilline .image-content {
-        height: 350px;
-    }
-
-    .hero-section .txt-content .btn-container .btn-2 {
-  & p {
-        margin-left: 0;
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 1280px) {
+  .nav-links {
+    display: none;
+  }
+
+  .links-toggle {
+    display: block;
+  }
+
+  .side-bar {
+    display: block;
+  }
+
+  header {
+    padding-bottom: 0;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    align-items: center;
+    .img-content {
+      width: 90%;
+      margin-top: -48px;
+    }
+  }
+
+  .hero-section .txt-content {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-section .txt-content {
+    width: fit-content;
+  }
+
+  /********? WHAT IS SKILLINE ?*****************/
+  .what-is-skilline .card-container {
+    flex-direction: column;
+    row-gap: 100px;
+  }
+
+  .our-features .feature-wrapper .img-holder {
+    margin-top: 16px;
+  }
+
+  /********? YOU CAN DO SKILLINE ?*****************/
+  .you-can-do-skilline {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+
+    .text-content {
+      margin-right: 0;
+      width: 100%;
+    }
+    .image-content {
+      width: 90%;
+    }
+  }
+
+  .you-can-do-skilline .text-content p {
+    margin-right: 0;
+  }
+
+  /********? OUR FEATURES ?*****************/
+  .our-features .feature-wrapper .our-feature-card {
+    flex-direction: column;
+  }
+
+  /********? INTEGRATIONS ?*****************/
+  .integrations-section {
+    flex-direction: column-reverse;
+    row-gap: 100px;
+  }
+
+  .integrations-section .logo-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    img {
+      width: 15%;
+    }
+  }
+
+  .integrations-section .text-section {
+    width: 100%;
+    button {
+      width: 100%;
+    }
+  }
+
+  /********? TESTIMONIALS ?*****************/
+  .testimonial-section {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+  }
+
+  .testimonial-section .text-section {
+    width: 100%;
+    button {
+      width: 100%;
+    }
+  }
+
+  .testimonial-section .img-section {
+    width: 100%;
+    .br-img {
+      right: -50%px;
+    }
+  }
+
+  /********? NEWS ?*****************/
+  .news-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 80px;
+
+    .left {
+      width: 100%;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+
+  .news-container .right ul li {
+    .img-holder {
+      align-self: flex-start;
+    }
+
+    .news-text {
+      align-self: flex-start;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  :root {
+    --padding-inline-section: 48px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+  p {
+    line-height: 140%;
+  }
+
+  /********? OUR FEATURES ?*****************/
+  .our-features .feature-wrapper .our-feature-card .img-holder {
+    width: 96%;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  :root {
+    --padding-inline-section: 24px;
+    --margin-top-section: 100px;
+  }
+  .hero-section .txt-content .btn-container {
+    justify-content: center;
+
+    li {
+      width: 100%;
+    }
+    .btn-2 {
+      border: 2px solid #ffffff;
+      border-radius: 40px;
+      justify-content: start;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+      /* .play-logo {} */
+    }
+  }
+  .hero-section .txt-content {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* .you-can-do-skilline .image-content {
+        height: 350px;
+    } */
+
+  .hero-section .txt-content .btn-container .btn-2 {
+    & p {
+      margin-left: 0;
+    }
+  }
+
+  @media only screen and (max-width: 640px) {
     :root {
-        --padding-inline-section: 16px;
+      --padding-inline-section: 16px;
     }
 
     header {
-        padding-top: 20px;
+      padding-top: 20px;
     }
 
-    .what-is-skilline .card-container .card .content-wrapper
-button {
-    min-height:60px;
-}
+    .what-is-skilline .card-container .card .content-wrapper button {
+      min-height: 60px;
+    }
 
-.hero-section .txt-content 
-.btn-container .btn-2 {
-    height: 60px;
+    .hero-section .txt-content .btn-container .btn-2 {
+      height: 60px;
 
-    .play-logo {
+      .play-logo {
         min-width: 60px;
         min-height: 60px;
         background-position-x: 18px;
         background-size: 18px;
+      }
     }
-}
-
 
     .our-features .feature-wrapper {
-        gap: 80px;
+      gap: 80px;
     }
 
-    .testimonial-section .img-section 
-    .br-img .name-holder {
-        flex-direction: column;
-        align-items: flex-start;
-        row-gap: 4px;
+    .testimonial-section .img-section .br-img .name-holder {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 4px;
 
-        .stars {justify-content: start;}
+      .stars {
+        justify-content: start;
+      }
     }
 
-
-    .news-container .right ul li
-    .img-holder {
-        align-self: center;
+    .news-container .right ul li .img-holder {
+      align-self: center;
     }
-
 
     footer {
-        position: relative;
+      position: relative;
     }
     footer .logo-holder {
-        gap: 40px;
+      gap: 40px;
     }
     footer .subscribe-btn-holder {
-        flex-direction: column;
-        align-items: start;
+      flex-direction: column;
+      align-items: start;
 
-        form {
-            width: 100%;
-            .btn-hollow{width: 100%;}
+      form {
+        width: 100%;
+        .btn-hollow {
+          width: 100%;
         }
-        .btn-solid {width: 100%;}
+      }
+      .btn-solid {
+        width: 100%;
+      }
     }
 
     footer ul {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-bottom: 66px;
-        div {display: none;}
-
+      flex-direction: column;
+      align-items: flex-start;
+      margin-bottom: 66px;
+      div {
+        display: none;
+      }
     }
 
     footer .final-p {
-        position: absolute;
-        background-color: #1c1c34;
-        padding: 20px;
-        bottom: 0;
-        width: 100%;
-        left: 0;
-        z-index: 1;
+      position: absolute;
+      background-color: #1c1c34;
+      padding: 20px;
+      bottom: 0;
+      width: 100%;
+      left: 0;
+      z-index: 1;
     }
-}
+  }
 
-@media only screen and (max-width: 480px) {
-
+  @media only screen and (max-width: 480px) {
     h1 {
-        font-size: 36px;
-        line-height: 115%;
+      font-size: 36px;
+      line-height: 115%;
     }
     h2 {
-        font-size: 32px;
-        line-height: 150%;
+      font-size: 32px;
+      line-height: 150%;
     }
     h3 {
-        font-size: 28px;
-        line-height: 120%;
+      font-size: 28px;
+      line-height: 120%;
     }
     h4 {
-        font-size: 24px;
-        line-height: 120%;
-        margin-bottom: 16px;
+      font-size: 24px;
+      line-height: 120%;
+      margin-bottom: 16px;
     }
     p {
-        font-size: 14px;
+      font-size: 14px;
     }
 
     a {
-        font-size: 18px;
+      font-size: 18px;
     }
 
-    .very-sm {font-size: 12px;}
-    .sm {font-size: 14px;}
-    .med {font-size: 16px;}
-    .reg {font-size: 18px;}
-    .large {font-size: 20px;}
-    .xl {font-size: 22px;}
-
+    .very-sm {
+      font-size: 12px;
+    }
+    .sm {
+      font-size: 14px;
+    }
+    .med {
+      font-size: 16px;
+    }
+    .reg {
+      font-size: 18px;
+    }
+    .large {
+      font-size: 20px;
+    }
+    .xl {
+      font-size: 22px;
+    }
 
     .logo-img {
-        width: 45px;
-        height: 45px;
+      width: 45px;
+      height: 45px;
     }
 
     .logo-txt {
-        font-size: 16px;
-        margin-left: -29px;
+      font-size: 16px;
+      margin-left: -29px;
     }
 
     .heading-top-bar .line {
-        width: 40px;
+      width: 40px;
     }
 
-    .btn-solid {height: 40px; font-size: 16px;}  
-    .btn-hollow {height: 40px; font-size: 16px;}
-    .hero-section .txt-content 
-    .btn-container .btn-2 {
-    height: 40px;
-        .play-logo {
-            min-width: 40px;
-            min-height: 40px;
-            background-position-x: 14px;
-            background-size: 12px;
+    .btn-solid {
+      height: 40px;
+      font-size: 16px;
     }
-}
+    .btn-hollow {
+      height: 40px;
+      font-size: 16px;
+    }
+    .hero-section .txt-content .btn-container .btn-2 {
+      height: 40px;
+      .play-logo {
+        min-width: 40px;
+        min-height: 40px;
+        background-position-x: 14px;
+        background-size: 12px;
+      }
+    }
 
-    .you-can-do-skilline .image-content {
+    /* .you-can-do-skilline .image-content {
         height: 272px;
+    } */
+    .what-is-skilline .card-container .card .content-wrapper button {
+      min-height: 40px;
     }
-        .what-is-skilline .card-container .card .content-wrapper
-button {
-    min-height:40px;
-}
 
     .all-in-one .feature-card {
-        padding: 8px;
-        min-height: fit-content;
-        padding-top: 80px;
-        padding-bottom: 40px;
+      padding: 8px;
+      min-height: fit-content;
+      padding-top: 80px;
+      padding-bottom: 40px;
     }
 
     .feature-card-holder .top-icon {
-        width: 60px;
-        height: 60px;
-        background-size: 40%;
-        margin-bottom: -30px;
+      width: 60px;
+      height: 60px;
+      background-size: 40%;
+      margin-bottom: -30px;
     }
 
-
-    header {padding-bottom: 24px;}
-    
-
+    header {
+      padding-bottom: 24px;
+    }
 
     .hero-section .img-content {
-        display: none;
-        
+      display: none;
     }
 
     .integrations-section .text-section button {
-        height: 40px;
-        font-size: 16px;
+      height: 40px;
+      font-size: 16px;
     }
 
     .testimonial-section .text-section button {
-        height: 40px;
-        font-size: 16px;
+      height: 40px;
+      font-size: 16px;
     }
+    .testimonial-section .img-section .br-img {
+      width: 95%;
+      max-width: 680px;
+      padding: 40px 28px 0px 14px;
+      border-left: 7px solid #f67766;
+    }
+
+    .news-container {
+      padding-top: 40px;
+    }
+  }
 }
-
-

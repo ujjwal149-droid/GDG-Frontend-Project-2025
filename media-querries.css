@@ -14,23 +14,25 @@
 }
 
 @media only screen and (max-width: 1280px) {
-
   .links-toggle {
     display: block;
   }
 
-   .navbar {
-flex-direction: column;
-align-items: start;
-} 
-    .nav-links {
-            background-color: white;
-            border-radius: 20px;
+  .navbar {
+    flex-direction: column;
+    align-items: start;
+  }
+  .logo-hamburger-holder {
+    width: 100%;
+}
+  .nav-links {
+    background-color: white;
+    border-radius: 20px;
     width: 100%;
     margin-top: 32px;
-    }
+  }
   .nav-links ul {
-        gap: 10px;
+    gap: 10px;
     flex-direction: column;
     padding: 16px;
 

@@ -1,17 +1,17 @@
 let navToggleButton = document.querySelector('.links-toggle')
-let sideBar = document.querySelector('.side-bar')
-let isNavOpen = false
+let navBar = document.querySelector('.nav-links')
+let isNavOpen = true
 
 navToggleButton.addEventListener('click', () => {
     if(isNavOpen == false) {
-        sideBar.classList.remove('hidden')
-        sideBar.classList.add('visible')
+        navBar.classList.remove('hidden')
+        navBar.classList.add('visible')
         isNavOpen = true
-        navToggleButton.style.backgroundImage = "url('./Images/icons/home-icon.png')"
+        navToggleButton.style.backgroundImage = "url('./Images/icons/cross.png')"
     }
     else {
-        sideBar.classList.add('hidden')
-        sideBar.classList.remove('visible')
+        navBar.classList.add('hidden')
+        navBar.classList.remove('visible')
         isNavOpen = false
         navToggleButton.style.backgroundImage = "url('./Images/icons/hamburger.png')"
     }

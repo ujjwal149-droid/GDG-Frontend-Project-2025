@@ -14,16 +14,28 @@
 }
 
 @media only screen and (max-width: 1280px) {
-  .nav-links {
-    display: none;
-  }
 
   .links-toggle {
     display: block;
   }
 
-  .side-bar {
-    display: block;
+   .navbar {
+flex-direction: column;
+align-items: start;
+} 
+    .nav-links {
+            background-color: white;
+    width: 100%;
+    margin-top: 32px;
+    }
+  .nav-links ul {
+        gap: 10px;
+    flex-direction: column;
+    padding: 16px;
+
+    li .link {
+      color: #252641;
+    }
   }
 
   header {

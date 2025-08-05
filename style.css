@@ -115,14 +115,14 @@ ul {
 }
 
 .hidden {
-    opacity: 0;
-    transition-delay: 1s;
-    visibility: hidden;
+    /* opacity: 0;
+    transition-delay: 1s; */
+    display: none;
 }
 
 .visible {
-    visibility: visible;
-    opacity: 1;
+    display: block;
+    /* opacity: 1; */
 
 }
 
@@ -222,9 +222,9 @@ header {
 }
 
 
-/* .navbar {
-
-} */
+ .navbar {
+position: relative;
+} 
 
 .nav-links ul {
     gap: 40px;
@@ -236,37 +236,15 @@ header {
     display: none;
     width: 60px;
     height: 60px;
-    background-image: url("./Images/icons/hamburger.png");
+    background-image: url("./Images/icons/cross.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 20px;
+    position: absolute;
+    right: 0;
+
 }
 
-.side-bar {
-    background-color: #ffffff;
-    width: 100%;
-    height: fit-content;
-    margin-top: 24px;
-    display: none;
-
-    transition: display 0.5s, opacity 0.5s ease-in-out;
-    transition-behavior: allow-discrete;
-    li .link{color: #252641;}
-}
-
-/* .side-bar .top-panel {
-    width: 100%;
-    height: fit-content;
-    justify-content: right;
-    background-color: #858585;
-    padding: 16px;
-    margin-bottom: 48px;
-} */
-
-.side-bar ul {
-    justify-content: space-evenly;
-    padding: 24px 0px;
-}
 
 /********? HERO-SECTION ?********************************************************************************/
 .hero-section {

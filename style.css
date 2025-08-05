@@ -20,6 +20,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-style: normal;
   color: #2f327d;
+  overflow-x: hidden;
 }
 
 .CONTAINER {
